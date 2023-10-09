@@ -1,6 +1,6 @@
 function createCard(name, description, pictureUrl, starts, ends, location) {
     return `
-    <div class="col-4">
+    <div class="col-4 mb-1 shadow-sm p-3 mb-5 bg-white rounded">
         <div class="card">
         <img src="${pictureUrl}" class="card-img-top">
         <div class="card-body">
@@ -68,8 +68,8 @@ window.addEventListener('DOMContentLoaded', async () => {
                         ends,
                         location
                     );
-                    const column = document.querySelector('.row');
-                    column.innerHTML += html;
+                    const row = document.querySelector('.row');
+                    row.innerHTML += html;
                 }
             }
         }
