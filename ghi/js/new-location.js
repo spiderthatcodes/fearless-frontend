@@ -31,7 +31,6 @@ window.addEventListener('DOMContentLoaded', async () => {
         if (response.ok) {
         formTag.reset();
         const newLocation = await response.json();
-        console.log(newLocation);
         }
     });
 });
