@@ -51,7 +51,6 @@ window.addEventListener('DOMContentLoaded', async () => {
                 const detailResponse = await fetch(detailUrl);
                 if (detailResponse.ok) {
                     const details = await detailResponse.json();
-                    // console.log(details)
                     const starts = formatDate(
                         new Date(details.conference.starts)
                     );
