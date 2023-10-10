@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
+
     const formTag = document.getElementById('create-location-form');
     formTag.addEventListener('submit', async (event) => {
         event.preventDefault();
