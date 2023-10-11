@@ -1,7 +1,6 @@
 import Nav from './Nav';
 
 const App = ({ attendees }) => {
-    console.log(attendees)
     return (
         <>
         <Nav />
